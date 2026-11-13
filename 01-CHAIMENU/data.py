@@ -10,7 +10,7 @@ menu_items = [
     {
         "id": 2, 
         "name": "Ginger Chai", 
-        "category": "chai",
+        "category": "snack",
         "price": 30.0,
         "description" : "Chai with a hint of ginger",
         "available": True,
@@ -22,5 +22,13 @@ menu_items = [
         "category": "chai",
         "description" : "Chai infused with cardamom",
         "available": False,
+    },
+    {
+        "id": 4, 
+        "name": "Chai and Biscuit Combo", 
+        "category": "combo",
+        "price": 50.0,
+        "description" : "A cup of chai with a biscuit",
+        "available": True,
     },
 ]
