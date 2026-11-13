@@ -32,3 +32,9 @@ class BulkRequest(BaseModel):
                 raise ValueError("Each Pincode must be exactly 6 digit")
         return values
 
+class BulkResponse(BaseModel):
+    status: str = "success"
+    found: int
+    not_found: int
+    result: list[LocationResponse]
+    missing: list[str]
